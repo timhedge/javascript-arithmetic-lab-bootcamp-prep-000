@@ -32,6 +32,10 @@ function makeInt(n)
 {
   if (isNaN(n))
   {
-    return parseInt(n)
+    return NaN
+  }
+  else
+  {
+    return parseInt(n, 10)
   }
 }
