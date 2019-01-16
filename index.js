@@ -30,7 +30,7 @@ function dec(n)
 
 function makeInt(n)
 {
-  if (isNaN(n))
+  if (isNaN(n)) === parseInt(n)
   {
     return parseInt(n)
   }
